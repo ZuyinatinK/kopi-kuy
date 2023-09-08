@@ -1,0 +1,92 @@
+{
+    "arabica": [
+        {
+            "foto": "images/produk/arabica/product_arabica_1.png",
+            "nama": "Excelso Kopi Bubuk Arabica Gold",
+            "size": "200 Gram",
+            "harga": "Rp72.150",
+            "link": "https://www.monotaro.id/items/s000003600.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1rZ9XFQuSs4HCNLMs5g8fPexs5IU7nbGi7gJYCDtV7fJKTNUps1MVgaAvqeEALw_wcB"
+        },
+        {
+            "foto": "images/produk/arabica/product_arabica_2.png",
+            "nama": "JJ Royal Biji Kopi Toraja Arabica",
+            "size": "200 Gram",
+            "harga": "Rp103.230",
+            "link": "https://www.monotaro.id/items/s000009165.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1pm2Wz3QFPFThbOgDQIDHu4x04pUYy-zgPnVDSxhwrXs8DPAbjr01IaAgQrEALw_wcB"
+        },
+        {
+            "foto": "images/produk/arabica/product_arabica_3.png",
+            "nama": "JJ Royal Kopi Bubuk Flores Arabica",
+            "size": "200 Gram",
+            "harga": "Rp88.800",
+            "link": "https://www.monotaro.id/items/s000003090.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1qGMC6kGlIXd5qlA51FUrClnRc9YhN7vtln726KjOjwpKPYuPoOld8aAjJZEALw_wcB"
+        },
+        {
+            "foto": "images/produk/arabica/product_arabica_4.png",
+            "nama": "ANOA Coffee Arabica Toraja Ground Coffee",
+            "size": "200 Gram",
+            "harga": "Rp36.500",
+            "link": "https://shopee.co.id/product/269018732/3664241077"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/robusta/product_robusta_1.png",
+            "nama": "Excelso Kopi Bubuk Robusta Gold",
+            "size": "200 Gram",
+            "harga": "Rp41.070",
+            "link": "https://www.monotaro.id/items/s000003599.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1oD40KNcZM2HGKVhsl5b8NSi2ILHYYJG-MgOxtNFXtOnrGS2oZn2LIaAizpEALw_wcB"
+        },
+        {
+            "foto": "images/produk/robusta/product_robusta_2.png",
+            "nama": "FIRST FACE Kopi 100% Robusta",
+            "size": "1000 Gram",
+            "harga": "Rp109.890",
+            "link": "https://www.monotaro.id/items/s037354565.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1pIrWFSXIIley0utCtr6y8DU00S0sSApHlLog2EEBjbSbIAK2ZjTHwaAqu4EALw_wcB"
+        },
+        {
+            "foto": "images/produk/robusta/product_robusta_3.png",
+            "nama": "JJ Royal Biji Kopi Lampung Robusta",
+            "size": "200 Gram",
+            "harga": "Rp65.490",
+            "link": "https://www.monotaro.id/items/s034778241.html?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1piCdSvWjsdTGNtDvKwNuWabe88WZtmDB5qh7jIh5v6iRgBqDBUacYaAsjjEALw_wcB"
+        },
+        {
+            "foto": "images/produk/robusta/product_robusta_4.png",
+            "nama": "Coffee Premium Java Robusta Beans",
+            "size": "250 Gram",
+            "harga": "Rp130.000",
+            "link": "https://balidirectstore.com/product/coffee-premium-java-robusta-beans/"
+        }
+    ],
+    "nonkopi": [
+        {
+            "foto": "images/produk/noncoffee/product_noncoffee_1.png",
+            "nama": "Minang Kakao Cocoa Powder / Coklat Bubuk",
+            "size": "300 Gram",
+            "harga": "Rp32.500",
+            "link": "https://www.lazada.co.id/products/minang-kakao-cocoa-powder-coklat-bubuk-300-gr-i6956558334-s13175130514.html?from_gmc=1&exlaz=d_1:mm_150050845_51350205_2010350205::12:19855399848!!!!!c!!13175130514!130163517&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1oq6nR91wRCSE80QxCg6-lv2GB1vNw4euz6vZMG1NT4OSIdWGQoZK8aAiqfEALw_wcB" 
+        },
+        {
+            "foto": "images/produk/noncoffee/product_noncoffee_2.png",
+            "nama": "Timurasa Dark Cocoa Powder",
+            "size": "500 Gram",
+            "harga": "Rp95.000",
+            "link": "https://www.blibli.com/p/timurasa-dark-cocoa-powder-500gr-bubuk-kakao-hitam-coklat-bubuk/is--ALE-60086-00172-00001?pickupPointCode=PP-3128721&utm_source=google&utm_medium=cpc&utm_campaign=ACQ-AlwaysOn-Pmax-BLM-ALL-Pmax_NCA&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1o8XvhjCpS9M70OKucEYgierDVZHZdpBxxT_cPtxEkg1B8LGMTyjBIaAkukEALw_wcB"
+        },
+        {
+            "foto": "images/produk/noncoffee/product_noncoffee_3.png",
+            "nama": "Coklat Bubuk Van Houten",
+            "size": "100 Gram",
+            "harga": "Rp22.580",
+            "link": "https://shopee.co.id/product/828580643/23015932024?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1rBb9azyikTvdacjGBpA_zeykJSTWsKIrVgeuFyl3CyQOyTkFHcFvEaAsrCEALw_wcB"
+        },
+        {
+            "foto": "images/produk/noncoffee/product_noncoffee_4.png",
+            "nama": "Kampung Coklat Gusant Bubuk Cokelat Murni",
+            "size": "100 Gram",
+            "harga": "Rp15.000",
+            "link": "https://www.blibli.com/p/kampung-coklat-gusant-bubuk-cokelat-murni-100-g/ps--OLO-60036-00008"
+        }
+    ]
+}

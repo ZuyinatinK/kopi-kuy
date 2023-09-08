@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style>
+        /* tulis kode CSS internal di bawah sini */
+
+        section {
+            min-height: 90vh;
+        }
+
+        nav {
+            background-color: #87560c;
+        }
+
+        .kopi {
+            width: 20px;
+        }
+
+        .coffee {
+            width: 400px;
+            opacity: 0.6;
+        }
+
+        .bg-coklat {
+            background-color: #87560c;
+        }
+
+        .border-coklat {
+            border-color: #87560c !important;
+        }
+
+        .btn-coklat {
+            border-color: #87560c !important;
+            background-color: #87560c !important;
+        }
+
+        .bg-body {
+            background-color: #fae4b9;
+        }
+
+
+        /* Batas Akhir penulisan kode CSS internal */
+    </style>
+</head>
+
+<body>
+    <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+    <nav class="navbar fixed-top navbar-dark bg-coklat navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                    </li>
+
+                </ul>
+                <a class="btn btn-outline-light ms-md-3" href="https://wa.me/081xxxxxxxxxx">
+                    <i class="bi bi-whatsapp"></i> Chat
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="riki-block text-center mt-5 pt-5">
+        <div class="container">
+            <h1>Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas terbaik, biji kopi pilihan langsung dari petani</p>
+            <hr class="border border-coklat border-3 opacity-75 ">
+
+            <!-- Ini Untuk Select -->
+            <div class="form-floating w-50 mx-auto mb-5">
+                <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+                    <option selected>-</option>
+                    <option value="arabica">Arabica</option>
+                    <option value="robusta">Robusta</option>
+                    <option value="nonkopi">Non Coffee</option>
+                </select>
+                <label for="select_kopi">Pilih jenis kopi yang anda inginkan</label>
+            </div>
+
+            <div class="row" id="baris_produk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <img class="coffee" src="images/background/bg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+        </div>
+
+    </section>
+
+
+    <footer class="riki-block footer-small py-4 bg-coklat">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produk.html">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    © 2023 Kopi Kuy. &amp; All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Batas Akhir penulisan kode Bootstrap -->
+    <script>
+        /* Tulis Javascript Di bawah Sini */
+
+        const sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        const sumber2 = "data.json"
+        var data_kopi = []
+        var data_pilihan = []
+
+        $.getJSON(sumber2).then(function (data) {
+            data_kopi = data
+            console.log(data_kopi)
+        })
+
+        select_kopi.onchange = function () {
+            let pilihan = select_kopi.value
+            console.log(pilihan)
+            data_pilihan = data_kopi[pilihan]
+            console.log(data_pilihan)
+            updateTampilan()
+        }
+
+        function updateTampilan() {
+            baris_produk.innerHTML = ""
+            data_pilihan.forEach(item => {
+                baris_produk.innerHTML += 
+                `<div class="col-12 col-md-6 col-lg-3">
+                            <div class="card mt-4 mx-auto text-center">
+                                <img src="${item.foto}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.nama}</h5>
+                                    <div class="row py-3">
+                                        <div class="col">
+                                            ${item.size}
+                                        </div>
+                                        <div class="col text-primary fw-bold">
+                                            ${item.harga}
+                                        </div>
+                                    </div>
+                                    <a href="${item.link}" class="btn btn-coklat btn-outline-light w-100">
+                                        <i class="bi bi-cart-check"></i>
+                                        Beli
+                                    </a>
+                                </div>
+                            </div>
+                        </div>`
+            })
+        }
+
+        /* Batas Akhir penulisan kode Javascript */
+    </script>
+</body>
+
+</html>
