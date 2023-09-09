@@ -1,6 +1,9 @@
 /* Pengaturan Global */
 
 /* Mendaftarkan font ke dalam CSS, dan memberi nama family */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 @font-face {
    font-family: 'Poppins';
    src: url(../fonts/poppins.woff2);
@@ -28,6 +31,10 @@ a {
 
    /* menghilangkan warna bawaan pada link */
    color: unset;
+}
+
+h1 {
+   font-family: 'Black Ops One', cursive;
 }
 
 h2 {
@@ -101,6 +108,10 @@ nav {
 section {
    /* text-align mengatur rata tulisan, bisa bernilai: left, right, center, justify */
    text-align: center;
+}
+
+.icon {
+   height: 50px;
 }
 
 .logo {
@@ -381,7 +392,7 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    width: 30%;
    padding: 35px 50px;
    box-shadow: 0px 0px 12px -10px #000;
-   background-color: #fff;
+   background-color: #87560c50;
 }
 
 .profile {
@@ -405,7 +416,8 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 
 /* CONTACT US */
 .contact-us {
-   margin-bottom: 20px;
+   margin-bottom: 0px;
+   background-color: #87560c50;
 }
 
 .col-kontak {
@@ -413,6 +425,38 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    margin-top: 50px;
    /* color mengatur warna tulisan */
    color: #87560c;
+}
+
+.col-kontak p{
+   font-weight: bold;
+}
+
+.alert {
+   margin-left: 100px;
+   margin-right: 100px;
+   padding: 20px;
+   background-color: #d82d2dde;
+   color: rgb(233, 220, 220);
+}
+
+.closebtn {
+   margin-left: 15px;
+   color: rgb(20, 3, 3);
+   font-weight: bold;
+   float: right;
+   font-size: 22px;
+   line-height: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.closebtn:hover {
+   color: black;
+}
+
+iframe {
+   padding-left: 100px;
+   padding-right: 100px;
 }
 
 /* FOOTER */
