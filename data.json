@@ -65,7 +65,7 @@
             "nama": "Minang Kakao Cocoa Powder / Coklat Bubuk",
             "size": "300 Gram",
             "harga": "Rp32.500",
-            "link": "https://www.lazada.co.id/products/minang-kakao-cocoa-powder-coklat-bubuk-300-gr-i6956558334-s13175130514.html?from_gmc=1&exlaz=d_1:mm_150050845_51350205_2010350205::12:19855399848!!!!!c!!13175130514!130163517&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1oq6nR91wRCSE80QxCg6-lv2GB1vNw4euz6vZMG1NT4OSIdWGQoZK8aAiqfEALw_wcB" 
+            "link": "https://www.lazada.co.id/products/minang-kakao-cocoa-powder-coklat-bubuk-300-gr-i6956558334-s13175130514.html?from_gmc=1&exlaz=d_1:mm_150050845_51350205_2010350205::12:19855399848!!!!!c!!13175130514!130163517&gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1oq6nR91wRCSE80QxCg6-lv2GB1vNw4euz6vZMG1NT4OSIdWGQoZK8aAiqfEALw_wcB"
         },
         {
             "foto": "images/produk/noncoffee/product_noncoffee_2.png",
@@ -89,4 +89,5 @@
             "link": "https://www.blibli.com/p/kampung-coklat-gusant-bubuk-cokelat-murni-100-g/ps--OLO-60036-00008"
         }
     ]
+>>>>>>> 0ce839e (Resolved merge conflicts)
 }

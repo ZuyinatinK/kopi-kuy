@@ -428,7 +428,7 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    color: #87560c;
 }
 
-.col-kontak p{
+.col-kontak p {
    font-weight: bold;
 }
 
@@ -518,6 +518,18 @@ footer .navigasi {
    .col-review {
       width: 100%;
       margin-bottom: 40px;
+   }
+
+   .alert {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5px;
+   }
+
+   iframe {
+      margin-left: 10px;
+      margin-right: 20px;
+      padding: 5px;
    }
 
    .col-kontak {
