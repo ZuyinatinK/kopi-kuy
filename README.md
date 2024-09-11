@@ -124,3 +124,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
 Proyek Kopi Kuy adalah implementasi dari keterampilan yang saya pelajari dalam membangun website dinamis dan responsif. Menggunakan HTML5, CSS3, JavaScript, JQuery, dan Bootstrap, saya telah berhasil membuat website yang menampilkan profil perusahaan dan produk secara terstruktur dan interaktif. Melalui proyek ini, saya memperoleh pemahaman yang lebih dalam tentang pengembangan frontend dan penggunaan framework serta library untuk mendukung tampilan yang responsif. Ini adalah fondasi yang kuat bagi saya untuk melanjutkan karir sebagai Software Developer.
 
+
+## Credits
+
+This project was developed by Zuyinatin Khofifah. Special thanks to **Xpertrainer** for providing the training and guidance.
