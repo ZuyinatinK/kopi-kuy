@@ -43,6 +43,7 @@ Proyek ini membantu saya mendapatkan pengalaman langsung dalam pengembangan web 
 ## Struktur Proyek
 
 Struktur proyek ini adalah sebagai berikut:
+``` bash
 kopi-kuy/
 │
 ├── css/
@@ -80,6 +81,7 @@ kopi-kuy/
 ├── index.html
 ├── produk.html
 └── README.md
+```
 
 
 ## Instalasi
@@ -95,6 +97,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
     cd kopi-kuy
     ```
 3. Buka file index.html di browser Anda untuk melihat halaman profil perusahaan:
+
     ![live-server](media/live-server.png)
     ```bash 
     http://127.0.0.1:5500/index.html
@@ -109,9 +112,13 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 ## Penggunaan
 
 1. Halaman Profil Perusahaan menyediakan informasi tentang Kopi Kuy dan layanannya.
+
     ![kopi-kuy-index](media/kopi-kuy-index.png)
+
 2. Halaman Shop menampilkan produk-produk yang dijual oleh Kopi Kuy, yang diambil secara dinamis dari file data.json menggunakan JavaScript dan JQuery. Anda dapat melihat berbagai produk kopi yang tersedia.
+
     ![kopi-kuy-produk](media/kopi-kuy-produk.png)
+
 
 ## Kesimpulan
 
