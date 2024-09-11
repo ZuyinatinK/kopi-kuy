@@ -100,7 +100,8 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
     http://127.0.0.1:5500/index.html
     ```
 4. Buka file produk.html untuk melihat halaman produk:
-    ![live-server](media/live-server.png)
+    
+	![live-server](media/live-server.png)
     ```bash
     http://127.0.0.1:5500/produk.html
     ```
